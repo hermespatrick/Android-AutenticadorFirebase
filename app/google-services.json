@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "639744974636",
+    "firebase_url": "https://authenticatorapp-1f0a7.firebaseio.com",
+    "project_id": "authenticatorapp-1f0a7",
+    "storage_bucket": "authenticatorapp-1f0a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639744974636:android:188c0414fbd8d1e6a0d689",
+        "android_client_info": {
+          "package_name": "com.devotees.authenticatorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639744974636-6a230pj4k1rdr4al6v7rv5mp2t8o2rfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devotees.authenticatorapp",
+            "certificate_hash": "f35b6ffa28fad9f4fbeaf6bc33e62a710f2fbe23"
+          }
+        },
+        {
+          "client_id": "639744974636-ubtc3kqgsvhs1q9tji7p5k0ijieojp5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkcazfp5epaoLGuG_5JIPoZSdr9MqmBl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639744974636-ubtc3kqgsvhs1q9tji7p5k0ijieojp5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
