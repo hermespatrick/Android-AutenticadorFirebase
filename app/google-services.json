@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "639744974636-3j9cf77cg8qgi967mmosngc6nival1al.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devotees.authenticatorapp",
+            "certificate_hash": "b9cc94b0b3538af3ae5efe1c3f0377e567246066"
+          }
+        },
+        {
           "client_id": "639744974636-6a230pj4k1rdr4al6v7rv5mp2t8o2rfb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
