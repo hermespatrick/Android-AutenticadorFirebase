@@ -1,11 +1,14 @@
 <resources>
-    <string name="app_name">AuthenticatorApp</string>
-    <string name="full_name">Full Name</string>
+    <string name="app_name">Aplicación Móvil Valverde Consultores</string>
+    <string name="full_name">Nombre Completo</string>
     <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="phone">Phone</string>
-    <string name="register">Register</string>
-    <string name="registered_already_login_here">Registered Already? Login Here</string>
-    <string name="new_here_create_account">New Here? Create Account</string>
-    <string name="loginBtn">Login</string>
+    <string name="password">Contraseña</string>
+    <string name="phone">Celular</string>
+    <string name="register">Registrarme</string>
+    <string name="registered_already_login_here">Ya se encuentra registrado? Ingrese aquí</string>
+    <string name="new_here_create_account">Es usted un nuevo usuario? Cree su cuenta aquí</string>
+    <string name="loginBtn">Loguearme</string>
+    <string name="registrarse">Registrarme</string>
+    <string name="contrasena">Contraseña</string>
+    <color name="white">#FFFFFF</color>
 </resources>

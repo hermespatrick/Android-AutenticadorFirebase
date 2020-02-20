@@ -1,11 +1,39 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <!-- Style for edit text views-->
+    <style name="EditTextStyle">
+        <item name="android:backgroundTint">#651FFF</item>
+        <item name="android:textColorHint">#651FFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Style for button views-->
+    <style name="ButtonStyle">
+        <item name="android:background">#651FFF</item>
+        <item name="android:textColor">#ECEFF1</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Style for Text View views-->
+    <style name="TextViewStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#651FFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for little Text View views-->
+    <style name="LittleTextViewStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#651FFF</item>
+    </style>
+
 
 </resources>

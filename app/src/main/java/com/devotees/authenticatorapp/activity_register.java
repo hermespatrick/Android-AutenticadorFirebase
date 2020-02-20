@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,7 +29,6 @@ public class activity_register extends AppCompatActivity {
 
     public static final String TAG = "TAG";
     EditText mFullName,mEmail,mPassword,mPhone;
-    Spinner mSpinner;
     Button mRegisterBtn;
     TextView mLoginBtn;
     FirebaseAuth fAuth;
@@ -47,7 +45,6 @@ public class activity_register extends AppCompatActivity {
         mEmail=findViewById(R.id.email);
         mPassword=findViewById(R.id.password);
         mPhone=findViewById(R.id.phone);
-        mSpinner=findViewById(R.id.spinner2);
         mRegisterBtn=findViewById(R.id.registerBtn);
         mLoginBtn=findViewById(R.id.createTextLoginBtn);
 
