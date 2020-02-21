@@ -9,10 +9,11 @@
 
     <Button
         android:id="@+id/logoutBtn"
+        style="@style/ButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="8dp"
         android:onClick="logout"
         android:text="Logout"
@@ -23,60 +24,54 @@
 
     <TextView
         android:id="@+id/textViewPerfil"
+        style="@style/TextViewStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="160dp"
+        android:layout_marginTop="160dp"
         android:text="Tu Perfil"
-        android:textColor="#651FFF"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewName"
+        android:id="@+id/profileTextViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="8dp"
         android:text="Nombre:"
-        android:textColor="#651FFF"
+        style="@style/LittleTextViewStyle"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPerfil" />
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/textViewEmail"
+        android:id="@+id/profileTextViewEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:text="Email:"
-        android:textColor="#651FFF"
+        style="@style/LittleTextViewStyle"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+        app:layout_constraintTop_toBottomOf="@+id/profileTextViewName" />
 
     <TextView
-        android:id="@+id/textViewPhone"
+        android:id="@+id/profileTextViewPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:text="Celular:"
-        android:textColor="#651FFF"
+        style="@style/LittleTextViewStyle"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/profileTextViewEmail" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="87dp"
         android:layout_height="80dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="7dp"
-        app:layout_constraintEnd_toStartOf="@+id/textViewEmail"
+        app:layout_constraintEnd_toStartOf="@+id/profileTextViewEmail"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewPerfil"
