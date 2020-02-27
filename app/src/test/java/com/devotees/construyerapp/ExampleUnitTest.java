@@ -1,4 +1,4 @@
-package com.devotees.authenticatorapp;
+package com.devotees.construyerapp;
 
 import org.junit.Test;
 

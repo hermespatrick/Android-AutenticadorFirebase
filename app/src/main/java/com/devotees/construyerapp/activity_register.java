@@ -1,4 +1,4 @@
-package com.devotees.authenticatorapp;
+package com.devotees.construyerapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -67,17 +67,17 @@ public class activity_register extends AppCompatActivity {
 
 
                 if(TextUtils.isEmpty(email)){
-                    mEmail.setError("Email is required");
+                    mEmail.setError("Email es requerido");
                     return;
                 }
 
                 if(TextUtils.isEmpty(password)){
-                    mPassword.setError("Password is required");
+                    mPassword.setError("Password es requerido");
                     return;
                 }
 
                 if(password.length()<6){
-                    mPassword.setError("Password Must be >= 6 Characters");
+                    mPassword.setError("Password debe tener más de 6 caracteres");
                     return;
                 }
 
@@ -89,7 +89,7 @@ public class activity_register extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            Toast.makeText(activity_register.this,"User Created",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(activity_register.this,"Usuario Creado",Toast.LENGTH_SHORT).show();
 
                             userID=fAuth.getCurrentUser().getUid();
                             DocumentReference documentReference=fStore.collection("users").document(userID);
@@ -103,7 +103,7 @@ public class activity_register extends AppCompatActivity {
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void aVoid) {
-                                    Log.d(TAG,"onSuccess: user profile is created for "+userID);
+                                    Log.d(TAG,"onSuccess: Usuario Creado:  "+userID);
 
                                 }
                             });

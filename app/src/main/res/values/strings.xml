@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Aplicación Móvil Valverde Consultores</string>
+    <string name="app_name">ConstruyeFacil</string>
     <string name="full_name">Nombre Completo</string>
     <string name="email">Email</string>
     <string name="password">Contraseña</string>
@@ -10,5 +10,6 @@
     <string name="loginBtn">Loguearme</string>
     <string name="registrarse">Registrarme</string>
     <string name="contrasena">Contraseña</string>
+    <string name="logout">Cerrar Sesión</string>
     <color name="white">#FFFFFF</color>
 </resources>
