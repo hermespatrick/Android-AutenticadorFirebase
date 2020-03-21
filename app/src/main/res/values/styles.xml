@@ -35,5 +35,19 @@
         <item name="android:textColor">#651FFF</item>
     </style>
 
+    <!-- Style for little Text View views but for red notifications-->
+    <style name="LittleTextViewStyleWarns">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#D50000</item>
+    </style>
+
+    <!-- Style for little button views like warns-->
+    <style name="ButtonStyleWarns">
+        <item name="android:background">#D50000</item>
+        <item name="android:textColor">#ECEFF1</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
 
 </resources>
